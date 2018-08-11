@@ -1,0 +1,1 @@
+{"maxNKernel": 6, "baseRegVal": 0.0001, "includeMaxFac": 0.8, "maxNKernelErrStruct": 12, "epsConstraints": 3e-05, "marginSingle": 0.5, "dValues": 0.2, "transCenterFac": 0.15, "marginOverlap": 0.01, "repeatStart_": [-0.1, 5], "alphaConstraints": -5e-06, "nInterTrans": 6, "minBase": -0.01, "matchDirections": true, "minTrans": -0.0001}

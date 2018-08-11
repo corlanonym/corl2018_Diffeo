@@ -1,0 +1,12 @@
+The code is still in prototyping phase and is provided as is.
+
+Code tested with Ubuntu 16.04 and python 3.5.2 on 64 bit machine
+
+The code uses partially cpp code. This code is precompiled. 
+If your configuration does not match the one stated above please recompile.
+
+To run the LASA examples go to the python directory and run the file 
+DEMOS.py
+
+More up-to-date versions can be downloaded at
+https://github.com/corlanonym/corl2018_Diffeo
