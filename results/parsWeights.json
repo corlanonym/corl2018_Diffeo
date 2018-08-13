@@ -1,1 +1,1 @@
-{"maxEndInfF": 0.05, "orthCovScale0": -2.0, "maxEndInf0": 0.3, "centerPoint": 0.5, "orthCovScaleF": -2.0, "orthCovScale": -2.0, "centerPoint0": 0.5, "doCond": false, "finalCov": 2.0, "maxEndInf": 0.1, "centerPointF": 0.5}
+{"orthCovScale": -2.0, "orthCovScaleF": -2.0, "orthCovScale0": -2.0, "centerPoint": 0.5, "doCond": false, "finalCov": 2.0, "centerPointF": 0.5, "maxEndInfF": 0.05, "maxEndInf0": 0.3, "maxEndInf": 0.1, "centerPoint0": 0.5}

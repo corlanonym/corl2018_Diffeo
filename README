@@ -1,9 +1,25 @@
 The code is still in prototyping phase and is provided as is.
 
-Code tested with Ubuntu 16.04 and python 3.5.2 on 64 bit machine
+Code tested with Ubuntu 16.04 and python 3.5.2 on 64 bit machine with
+numpy 1.15.0
+scipy 1.1.0
+sympy 1.2
+matplotlib 2.2.3
+
 
 The code uses partially cpp code. This code is precompiled. 
-If your configuration does not match the one stated above please recompile.
+If your configuration does not match the one stated above please recompile:
+cd into cpp/cmake-build-debug then
+
+
+rm -rf ./*
+cmake ..
+make
+
+(We used cmake 3.11 and gcc 5.4)
+
+If still encountering problems change ownership of the entire folder
+chmod -R +rwx ./corl2018_Diffeo/
 
 To run the LASA examples go to the python directory and run the file 
 DEMOS.py

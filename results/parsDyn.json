@@ -1,1 +1,1 @@
-{"alphaF": 0.0, "alpha": -0.3333333333333333, "addFinalConv": true, "alpha0": -0.16666666666666666, "baseConv": -1e-300, "_nptPerSeg": 75, "beta": 0.6666666666666666, "_finalConvWeight": 25, "beta0": 1.3333333333333333, "betaF": 0.5, "_finalConvBeta": -1.0}
+{"_nptPerSeg": 75, "baseConv": -1e-300, "betaF": 0.5, "alpha": -0.3333333333333333, "_finalConvWeight": 25, "alphaF": 0.0, "beta": 0.6666666666666666, "_finalConvBeta": -1.0, "beta0": 1.3333333333333333, "addFinalConv": true, "alpha0": -0.16666666666666666}

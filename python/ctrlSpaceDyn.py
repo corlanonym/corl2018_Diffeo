@@ -98,7 +98,7 @@ def searchNStoreVectorfield(name,inputFolder,outputFolder,resultFolder,cppExe=No
     del Nstep
     
     # Adapt given demonstrations to bounding box
-    # Only necessaire if trained device is not replay device
+    # Only necessairy if trained device is not replay device
     if _otherOptions['boundingBoxSize'] is not None:
         fit2bBoxSize(allX,allV,_otherOptions['boundingBoxSize'])
     

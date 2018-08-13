@@ -805,9 +805,9 @@ def simpleNamedSearch(name):
     osabspath = os.path.abspath
     # Test
     # searchNStoreVectorfield(name, inputFolder, outputFolder, resultFolder, cppExe=None, nDemos=7, optionsSeries={}, optionsMatching={}, otheroptions={}, parsDyn={}, parsWeights={}, optionsMagMod={}):
-    inputFolder = osabspath('./data')
-    outputFolder = osabspath('/home/elfuius/temp/cpp/tmpFiles')
-    resultFolder = osabspath('/home/elfuius/temp/results')
+    inputFolder = osabspath('../data')
+    outputFolder = osabspath('../tmpFiles')
+    resultFolder = osabspath('../results')
     
     
     #Options direct
@@ -853,7 +853,8 @@ def simpleNamedSearch(name):
 
     
     #cppExe = "" #"/home/elfuius/ros_ws/devel/lib/baxter_diffeo/diffeoInterface"  # None#'./cpp/cmake-build-debug/combinedControl'
-    cppExe = os.path.abspath("/home/elfuius/ros_ws/devel/lib/baxter_diffeo/diffeoInterface")
+    #cppExe = os.path.abspath("/home/elfuius/ros_ws/devel/lib/baxter_diffeo/diffeoInterface")
+    cppExe = os.path.abspath("../cpp/cmake-build-debug/diffeoInterface")
     #cppExe = './cpp/cmake-build-debug/diffeoInterface'
     # Baxter specific to adjust size
     # otherOptions['boundingBoxSize'] = np.array([.25,.25])
@@ -862,7 +863,7 @@ def simpleNamedSearch(name):
     thisControl, thisFigList = searchNStoreVectorfield(name,inputFolder,outputFolder,resultFolder,cppExe=cppExe,optionsSeries=optionsSeries,optionsMatching=optionsMatching,otheroptions=otherOptions,parsDyn=parsDyn,parsWeights=parsWeights)
     
     #picPath = '/media/elfuius/3d52da96-fd6c-4ab5-9e57-fb6792b018ff/elfuius/temp/results19/new/'
-    picPath = '/home/elfuius/temp/results105/'
+    picPath = '../temp/results001/'
     mkdir_p(picPath+"{0}".format(name))
     
     for k, aFig in enumerate(thisFigList):
@@ -933,7 +934,7 @@ if __name__ == '__main__':
     
         optionsMagMod = {'add2Sigma':.05, 'iterMax':100, 'relTol':2e-2,'absTol':1.e-2, 'interOpt':True,'reOpt':False,'convFac':1., 'nPartial':10}
     
-        cppExe = "/home/elfuius/ros_ws/devel/lib/baxter_diffeo/diffeoInterface"#None#'./cpp/cmake-build-debug/combinedControl'
+        cppExe = os.path.abspath("../cpp/cmake-build-debug/diffeoInterface");#"/home/elfuius/ros_ws/devel/lib/baxter_diffeo/diffeoInterface"#None#'./cpp/cmake-build-debug/combinedControl'
         # Baxter specific to adjust size
         #otherOptions['boundingBoxSize'] = np.array([.25,.25])
         #otherOptions['demSpaceOffset'] = np.array([.8,-.1])

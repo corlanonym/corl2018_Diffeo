@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -1254,7 +1254,7 @@ functional
 string
 -
 
-/home/elfuius/ownCloud/thesis/allDiffeo/diffeo/cpp/diffeoInterface.cpp
+/home/tester/corl2018_Diffeo/cpp/diffeoInterface.cpp
 diffeoLib.h
 -
 functional
@@ -1262,7 +1262,7 @@ functional
 string
 -
 
-/home/elfuius/ownCloud/thesis/allDiffeo/diffeo/cpp/src/constants.h
+/home/tester/corl2018_Diffeo/cpp/src/constants.h
 Eigen/Dense
 -
 cmath
@@ -1270,13 +1270,13 @@ cmath
 math.h
 -
 
-/home/elfuius/ownCloud/thesis/allDiffeo/diffeo/cpp/src/fileVector.cpp
+/home/tester/corl2018_Diffeo/cpp/src/fileVector.cpp
 fileVector.h
-/home/elfuius/ownCloud/thesis/allDiffeo/diffeo/cpp/src/fileVector.h
+/home/tester/corl2018_Diffeo/cpp/src/fileVector.h
 
-/home/elfuius/ownCloud/thesis/allDiffeo/diffeo/cpp/src/fileVector.h
+/home/tester/corl2018_Diffeo/cpp/src/fileVector.h
 constants.h
-/home/elfuius/ownCloud/thesis/allDiffeo/diffeo/cpp/src/constants.h
+/home/tester/corl2018_Diffeo/cpp/src/constants.h
 Eigen/Dense
 -
 iostream
@@ -1286,13 +1286,13 @@ fstream
 iomanip
 -
 
-/home/elfuius/ownCloud/thesis/allDiffeo/diffeo/cpp/src/schlepilUtils.cpp
+/home/tester/corl2018_Diffeo/cpp/src/schlepilUtils.cpp
 schlepilUtils.h
-/home/elfuius/ownCloud/thesis/allDiffeo/diffeo/cpp/src/schlepilUtils.h
+/home/tester/corl2018_Diffeo/cpp/src/schlepilUtils.h
 
-/home/elfuius/ownCloud/thesis/allDiffeo/diffeo/cpp/src/schlepilUtils.h
+/home/tester/corl2018_Diffeo/cpp/src/schlepilUtils.h
 constants.h
-/home/elfuius/ownCloud/thesis/allDiffeo/diffeo/cpp/src/constants.h
+/home/tester/corl2018_Diffeo/cpp/src/constants.h
 iostream
 -
 Eigen/Dense
